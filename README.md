@@ -11,7 +11,8 @@ This repository sends queries to the Google Maps Directions API and returns dire
 5. Make `0-query-api.sh` executable (`chmod u+x 0-query-api.sh`) and run it. I strongly suggest testing with just a few cases first to get a feel for what's happening and check for errors; you only get 2,500 queries/day with a free account.
 6. The results are returned in `json` format which you can read as plain text and optionally parse with `jq`.
 
-NB: It's your responsibility to ensure you're compliant with the Google terms and conditions. You should be ok to just provide a map with your API key (you can set up a [Google Sites page](https://sites.google.com/) with your Google account, or a [Wordpress.com](https://wordpress.com/) account, both of which are free) but I'm not a lawyer so I suggest you read the [terms and conditions](https://developers.google.com/maps/terms#section_10).
+## Compliance with Google Terms of Service
+It is your responsibility to ensure you're compliant with the Google terms of service. You should be ok to just provide a map that uses your API key (you can set up a [Google Sites page](https://sites.google.com/) with your Google account, or a [Wordpress.com](https://wordpress.com/) account, both of which are free) but I'm not a lawyer so I suggest you read the [Google Maps Directions API terms of service](https://developers.google.com/maps/terms#section_10) before commencing.
 
 ## License
 Copyright 2015 Phil Mike Jones. Licensed under MIT License.
